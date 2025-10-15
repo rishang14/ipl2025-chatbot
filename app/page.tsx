@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils";
 type Role = "user" | "assistant" | "system";
 
 const quickPrompts = [
-  "Who won IPL 2024 and by how many runs/wickets?",
-  "Who was the Orange Cap winner in IPL 2024?",
-  "List the top 3 wicket-takers in IPL 2024.",
+  "Who won IPL 2025 and by how many runs/wickets?",
+  "Who was the Orange Cap winner in IPL 2025?",
+  "List the top 3 wicket-takers in IPL 2025.",
   "Give a summary of the IPL 2025 auction highlights.",
   "Predict key players to watch in IPL 2025 and why.",
 ];
@@ -100,10 +100,10 @@ export default function IPLChat() {
     <div className="mx-auto w-full max-w-3xl p-4 md:p-6 bg-neutral-900">
       <header className="mb-4 md:mb-6">
         <h1 className="text-balance text-2xl md:text-3xl font-semibold text-white">
-          IPL Chatbot 2024 - 2025
+          IPL Chatbot  2025
         </h1>
         <p className=" mt-1 text-gray-300">
-          Ask anything about the IPL 2024 and 2025 seasons. The assistant will
+          Ask anything about the IPL 2025 . The assistant will
           only answer within this scope.
         </p>
       </header>
